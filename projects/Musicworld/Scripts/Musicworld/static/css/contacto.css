@@ -1,0 +1,361 @@
+*{
+	margin: auto;
+	box-sizing:border-box;
+}
+
+.form-registro{/**/
+	font-family: Arial;
+	width: 500px;
+	height: 470px;
+	/*diseño fondo de formulario*/
+	background-image: url('imagenes/guitarra.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1px;
+	min-width: 1px;
+	background-color:#1f53c5;
+	margin: auto;
+	margin-top: 20px;
+	box-shadow: 7px 13px 37px ;
+	padding: 20px 30px;
+	border-top: 4px solid #1f232b;
+	border-top: 4px solid #1f232b;
+	border-left: 4px solid #1f232b;
+	border-width: 4px solid #1f232b;
+	border-right: 4px solid #1f232b;
+	border-bottom: 4px solid #1f232b;
+	
+}
+
+.form-registro h5{/*Diseño de texto*/
+	margin:0;
+	text-align: center;
+	height: 40px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid;
+	font-size: 20px;
+	color: white;
+
+}
+
+.form-registro p{
+	margin:0;
+	text-align: center;
+	height: 20px;
+	margin-bottom: 30px;
+	
+	font-size: 20px;
+	color: white;
+
+}
+body{/*Diseño de el fondo de la pagina*/
+	font-family: Arial;
+	background-image: url(../imagenes/bg.png);
+	background-repeat: no-repeat;
+	 height: 100%;
+	height: 100%;
+	
+	
+}
+.controls{/*Diseño de los campos o casillas*/
+	width: 100%;
+	border: 1px solid white;
+	margin-bottom: 15px;
+	padding: 11px 10px;
+	font-size: 14px;
+	background: #1f232b;
+	font-weight: bold;
+	color:white;
+	
+	
+
+}
+.btn-secundary{/*Diseño de el boton enviar*/
+	margin: 0;
+	box-sizing:border-box;	
+	background: darkblue;
+	color:white;
+	display: inline-block;
+	font-size: 1.25em;
+	margin: 10px;
+	padding: 10px 10px;
+	text-align:center;
+	width: 410px;
+	text-decoration: none;
+	box-shadow:  0px 3px 0px black;
+	border-radius: 5rem;
+}
+.form-verificado{ /*Diseño de la caja de verificado*/
+	color: white;
+	border: 1px solid darkgreen;
+}
+
+
+.btn-secundary:hover{
+	box-shadow: 0px 0px 0px;
+	padding-top: 7px;
+}
+
+:root {
+	--rojo: linear-gradient(45deg,#000000, #0076FF);
+	  --fondo: linear-gradient(45deg,#000000, #0076FF);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--fondo);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+
+/* ---- ----- -----Pagina principal----- ----- ----- */
+.pagina-principal {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../imagenes/Inicio/backdrop.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.pagina-principal .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+
+.pagina-principal .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+
+.pagina-principal .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+.pagina-principal .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+.pagina-principal .boton:hover {
+	background: #fff;
+	color: #000;
+}
+
+.pagina-principal .boton i {
+	margin-right: 1.25em;
+}
+
+/* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
+.contenedor-titulo-controles {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.contenedor-titulo-controles h3 {
+	color: #fff;
+	font-size: 30px;
+}
+
+.contenedor-titulo-controles .indicadores button {
+	background: #fff;
+	height: 3px;
+	width: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo {
+	background: red;
+}
+
+
+/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
+.instrumentos-recomendado {
+	margin-bottom: 70px;
+}
+
+.instrumentos-recomendado .contenedor-principal {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.instrumentos-recomendado .contenedor-principal .flecha-izquierda,
+.instrumentos-recomendado .contenedor-principal .flecha-derecha {
+	position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 50%;
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.instrumentos-recomendado .contenedor-principal .flecha-izquierda:hover,
+.instrumentos-recomendado .contenedor-principal .flecha-derecha:hover {
+	background: rgba(0,0,0, .9);
+}
+
+.instrumentos-recomendado .contenedor-principal .flecha-izquierda {
+	left: 0;
+}
+
+.instrumentos-recomendado .contenedor-principal .flecha-derecha {
+	right: 0;
+}
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+.instrumentos-recomendado .contenedor-carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.instrumentos-recomendado .contenedor-carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.instrumentos-recomendado .contenedor-carousel .carousel .instrumento {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+.instrumentos-recomendado .contenedor-carousel .carousel .instrumento.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.instrumentos-recomendado .contenedor-carousel .carousel .instrumento img {
+	width: 100%;
+	vertical-align: top;
+}
+
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+@media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.pagina-principal {
+		font-size: 14px;
+	}
+
+	.pagina-principal .descripcion {
+		max-width: 100%;
+	}
+
+	.instrumentos-recomendado .contenedor-carousel {
+		overflow: visible;
+	}
+
+	.instrumentos-recomendado .contenedor-carousel .carousel {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
+	.instrumentos-recomendado .indicadores,
+	.instrumentos-recomendado .flecha-izquierda,
+	.instrumentos-recomendado .flecha-derecha {
+		display: none;
+	}
+}
+
+body{
+	padding: 10px ;
+}
+.box-mapa{
+	height: 400px;
+	width: 400px;
+	padding: 10px 10px 10px 10px;
+	background-color: #fff;
+	position: absolute;
+	border-radius: 10px;
+	border: 5px solid #333;
+
+}
+.mapa{
+	height: 400px;
+	width: 400px;
+	padding: 11px 40px 31px 11px;
+
+
+}
+	
+    
+	
+    
+	
+
+
+

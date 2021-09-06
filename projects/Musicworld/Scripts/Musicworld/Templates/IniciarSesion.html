@@ -1,0 +1,38 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>Iniciar Sesion</title>
+    <link rel="shortcut icon" href="imagenes/diseno2.ico" type="image/x-icon">
+    <link rel ="stylesheet" href="CSS/IniciarSesion.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form>
+    <section class="form-login">
+        <h6>Iniciar Sesion</h6>
+        <input class="controls"type="text" name="Usuario" value="" placeholder="Usuario">
+        <input class ="controls" id ="inputcontraseña" type="password" name="Contraseña" value="" placeholder="Contraseña">
+        <input class ="verificado" type="checkbox" onclick="myFunction()">Ver contraseña<br>
+        <a href="Inicio.html" input class ="btn-primary " type ="button" type="submit"  value="Ingresar">Ingresar</a>
+        <p><a  href="recuperar.html">¿Olvidaste tu Contraseña?</a></p>
+        <p><a  href="registro.html">No tienes cuenta registrarte</a></p>
+    </section>
+    </form>
+
+
+
+    <script type="text/javascript">
+    function myFunction(){
+        var  x = document.getElementById("inputcontraseña");
+        if(x.type=="password"){
+            x.type="text";
+
+        }else {
+            x.type="password";
+        }
+    }
+    </script>    
+</body>
+</html>
